@@ -1,0 +1,77 @@
+/*************************************************SCREW YOUR LIFE OVER IMPORTANT***********************************************/
+Coding Conventions
+EVERYTHING EVEN MORE IMPORTANT THAN LIFE ITSELF :
+-booleans must start with "is"
+e.g "bool isBoolean = false;"
+- ALL VARIABLES MUST BE INITALIZED / DEFINED AT START;
+e.g int myFirstVariable = 0;
+Class *myClass = NULL;
+-Above conventions must be followed with exception of address and dereference, subscript
+CalculateReturnVector(Vector v1, Vector v2);
+-ALL LOOPS ITERATORS MUST BE INITALIZED JUST BEFORE THE LOOP STARTS
+- ALL ITERATORS MUST HAVE A SEMBLANCE MEANING OF ITERATOR BEHIND THE NAME.(e.g itr, rowCounter_itr)
+- IF THE ITERATOR IS USED FOR ANY VARIABLE OUTSIDE THE LOOP, THERE SHOULD BE A VARIABLE COPY OF IT.
+- SPACE BETWEEN OPERATORS AND OPERANDS
+
+- BEFORE ANY IMPLEMENT, BACK UP YOUR F***KING VERSION
+- ANYONE FAILING TO FOLLOW THESE CONVENTIONS OWES PRASANA AS MANY PRATAS HE DESIRES
+/***********************************************************CLASSES***********************************************************/
+CLASS VARIABLES :
+-m_<variablename>
+e.g :
+m_pollFunctions
+
+CLASS FUNCTIONS :
+-no bool in parameters
+<uppercase first char><parameters start with "p_">
+-Function(float p_arguement1, int p_mySecondArguement)
+- no underscores unless "SCREW YOUR LIFE OVER IMPORTANT";
+
+/***********************************************************GLOBAL***********************************************************/
+GLOBAL VARIBLES :
+-g_underscore
+<filescope><isConststant><variableName>
+-const float g_kmachineEpsilon = 0.000000000000001f;
+
+/***********************************************************LOCAL************************************************************/
+LOCAL VARIABLES :
+-no underscore for local variables
+- everyNewWord is a uppercase(except for first word)
+/***********************************************************MISC*************************************************************/
+
+/***********************************************************EXAMPLES*********************************************************/
+struct Position
+{
+	float x;
+	float y;
+};
+
+
+class Position
+{
+private:
+	float x;
+	float y;
+protected:
+	float performVectorAddition(float x, float y);
+public:
+	int SetPosition(float x, float y);
+	Position GetPosition(void);
+};
+
+Sprite* haha GetGameObject<Sprite>("mySprite");
+haha->GetPosition().X;
+
+
+class Sprite
+{
+	//private:
+	Position();
+public:
+	void SetPosition(Math::Point2D);
+}
+
+int main()
+{
+}
+
