@@ -20,6 +20,8 @@ Commit
    Everything in AwesomePossum -> Debug Folder (\Awesome-Possum\trunk\Master_GameFolder\AwesomePossum\Debug)
    The SDF file AwesomePossum.sdf (\Awesome-Possum\trunk\Master_GameFolder\AwesomePossum.sdf)
   -Click OK
+  -Enter your username and password
+  -Click OK
 
 FYI
   The SDF file is your code browsing database which uses SQL Sever Compact Edition.
