@@ -1,0 +1,27 @@
+Checkout
+  -Register at Github https://github.com/
+  -Install Tortoise SVN http://tortoisesvn.net/downloads.html
+  -Navigate to where you would like to work on the project
+  -Right-Click -> SVN Checkout...
+  -Enter this of the "URL of repository" https://github.com/PrinnyPhD/Awesome-Possum
+  -Click OK
+
+Commit
+  -Right-Click on the Awesome-Possum folder -> SVN Commit
+  -Under message, list the changes that you have done and sign off with your name and date
+   eg.
+   Fixed everything
+   Implemented Awesome
+   Fixed Possum
+   -Jovi 15/01
+  -The program should automatically select the things that have been changed
+  -Do not commit these things
+   Everything in the Debug folder EXCEPT glew32.dll (\Awesome-Possum\trunk\Master_GameFolder\Debug)
+   Everything in AwesomePossum -> Debug Folder (\Awesome-Possum\trunk\Master_GameFolder\AwesomePossum\Debug)
+   The SDF file AwesomePossum.sdf (\Awesome-Possum\trunk\Master_GameFolder\AwesomePossum.sdf)
+  -Click OK
+
+FYI
+  The SDF file is your code browsing database which uses SQL Sever Compact Edition.
+  You don't need to copy this SDF file while you move your project, 
+  and it will be automatically populated in the new location once you open your project. 

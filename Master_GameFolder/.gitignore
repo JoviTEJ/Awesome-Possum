@@ -4,6 +4,11 @@
 *.o
 *.obj
 
+# Other stuff to ignore (Jovi)
+*.suo
+*.user
+*.sdf
+
 # Precompiled Headers
 *.gch
 *.pch
