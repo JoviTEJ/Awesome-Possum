@@ -27,3 +27,13 @@ FYI
   The SDF file is your code browsing database which uses SQL Sever Compact Edition.
   You don't need to copy this SDF file while you move your project, 
   and it will be automatically populated in the new location once you open your project. 
+  
+  SLN (Solution) are the solution files. It stores info about the collection of projects
+  that make up whatever you are developing. They contain projects, source control settings,
+  or any other global level thing.
+
+  CSProj(Project file) are the actual code projects (C# Libraries, WCF Services, etc).
+  It stores information at the project level. It wraps all relevant References, Classess, etc..
+
+  SUO (solution user options) are user settings files. Completely disposable, you can
+  delete it and the most common thing you will lose are breakpoints.
