@@ -2,6 +2,6 @@ class Manager
 {
 public:
 	Manager() {}
-	virtual init() {}
-	virtual update() {}
+	virtual void init() {}
+	virtual void update() {}
 };
