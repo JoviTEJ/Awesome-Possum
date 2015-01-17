@@ -1,0 +1,17 @@
+Teal:
+	Q to charge
+	W to turn
+
+Yellow:
+	O to charge
+	P to turn
+
+Green:
+	down to charge
+	right to turn
+
+Red:
+	RMB to charge
+	LMB to turn
+
+Escape to quit
