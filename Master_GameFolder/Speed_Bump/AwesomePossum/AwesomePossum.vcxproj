@@ -82,6 +82,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\GameObject.cpp" />
     <ClCompile Include="src\GraphicsManager.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
@@ -89,6 +90,8 @@
     <ClInclude Include="hdr\CodingConventions.txt" />
     <ClInclude Include="hdr\EnumHeader.h" />
     <ClInclude Include="hdr\Game.h" />
+    <ClInclude Include="hdr\GameObject.h" />
+    <ClInclude Include="hdr\GameObjectComponent.h" />
     <ClInclude Include="hdr\GraphicsManager.h" />
     <ClInclude Include="hdr\HeaderIndex.h" />
     <ClInclude Include="hdr\InputManager.h" />

@@ -42,6 +42,9 @@
     <ClCompile Include="src\Game.cpp">
       <Filter>Source Files\System</Filter>
     </ClCompile>
+    <ClCompile Include="src\GameObject.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hdr\GraphicsManager.h">
@@ -67,6 +70,12 @@
     </ClInclude>
     <ClInclude Include="hdr\ManagerHeader.h">
       <Filter>Header Files\Index Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr\GameObjectComponent.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr\GameObject.h">
+      <Filter>Header Files\System</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

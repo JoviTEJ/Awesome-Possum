@@ -26,23 +26,23 @@ class InputManager
 {
 private:
 	//4 Player Keys [0] = Player 1 , [1] = Player 2 , [2] = Player 3 , [3] = Player 4
-	m_Player_Key[4] = { 0 };
+	Player_Key m_KeyBind[4];
 	//Mouse Position for the Player 1( For Collision Purpose ) 
 	AEVec2 m_MousePosition;
 protected:
 public:
-	InputManager(void);
-	bool Initialize(void);
+	InputManager(void){};
+	bool Initialize(void){};
 
 	//Check Functions
-	bool Return_Key_True(int p_PlayerID, PLAYER_ACTION p_ActionCheck);
+	bool Return_Key_True(int p_PlayerID, PLAYER_ACTION p_ActionCheck){};
 	//Function that will return the Current Mouse Position(Local to Game Space)
-	AEVec2 GetMousePosition(void);
+	AEVec2 GetMousePosition(void){};
 	//Update Functions
-	void Update(void);
-	void Process_Input(u8 p_key);
+	void Update(void){};
+	void Process_Input(u8 p_key){};
 
-	~InputManager(void);
+	~InputManager(void){};
 
 };
 #endif
